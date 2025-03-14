@@ -2,7 +2,7 @@ from bose import *
 
 class ScrapeLinksTask(BaseTask):
     task_config = TaskConfig(output_filename = "links")
-
+   
     
     def run(self, driver):
         """
